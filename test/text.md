@@ -1,0 +1,1 @@
+A `fenced inline` example.

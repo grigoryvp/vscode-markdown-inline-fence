@@ -1,0 +1,19 @@
+{
+  "fileTypes": [],
+  "injectionSelector": "L:text.html.markdown",
+  "patterns": [{
+    "include": "#inline-fence"
+  }],
+  "repository": {
+    "inline-fence": {
+      "comment": "`foo bar baz`",
+      "match": "`([^ `]?)`|`([^ `][^`]*[^ `])`",
+      "name": "punctuation.definition.tag",
+      "captures": {
+        "1": {"name": "string"},
+        "2": {"name": "string"}
+      }
+    }
+  },
+  "scopeName": "markdown.inline.codeblock"
+}
