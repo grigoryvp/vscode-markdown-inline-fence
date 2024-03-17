@@ -7,7 +7,7 @@
   "repository": {
     "inline-fence": {
       "comment": "`foo bar baz`",
-      "match": "`([^ `]?)`|`([^ `][^`]*[^ `])`",
+      "match": "`([^ `][^`]*[^ `])`",
       "name": "punctuation.definition.tag",
       "captures": {
         "1": {"name": "string"},
