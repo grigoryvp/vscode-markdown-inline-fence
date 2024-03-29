@@ -1,4 +1,5 @@
 {
+  "scopeName": "markdown.inline.codeblock",
   "fileTypes": [],
   "injectionSelector": "L:text.html.markdown",
   "patterns": [{
@@ -14,6 +15,5 @@
         "2": {"name": "string"}
       }
     }
-  },
-  "scopeName": "markdown.inline.codeblock"
+  }
 }
